@@ -1,13 +1,13 @@
 '''
 @author: john.borsi
 '''
-import os
-
-from pizza_hashcode.core.solution import Solution
-from pizza_hashcode.core.cut import Cut
-
 from filecmp import cmp
+import os
 import tempfile
+
+from pizza_hashcode.core.cut import Cut
+from pizza_hashcode.core.solution import Solution
+
 
 def test_output():
     with tempfile.NamedTemporaryFile() as f:

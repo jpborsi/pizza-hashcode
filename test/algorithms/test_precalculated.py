@@ -4,8 +4,9 @@
 
 from pizza_hashcode.algorithms.precalculated import PrecalculatedSolution
 from pizza_hashcode.core.cut import Cut
-from pizza_hashcode.core.solution import Solution
 from pizza_hashcode.core.problem import Problem
+from pizza_hashcode.core.solution import Solution
+
 
 def test_precalculated():
     solver = PrecalculatedSolution('precalculated/a.out')

@@ -3,6 +3,7 @@
 '''
 from pizza_hashcode.core.problem import Problem
 
+
 def test_input_files():
     problem_a = Problem('input/a_example.in')
     problem_b = Problem('input/b_small.in')

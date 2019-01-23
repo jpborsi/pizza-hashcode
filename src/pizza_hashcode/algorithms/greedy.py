@@ -4,6 +4,7 @@
 from pizza_hashcode.core.solution import Solution
 from pizza_hashcode.core.validate import check_cut
 
+
 class GreedySolver(object):
 
     def get_solution(self, problem):

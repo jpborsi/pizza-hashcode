@@ -5,6 +5,7 @@ from math import floor, sqrt
 
 from pizza_hashcode.core.cut import Cut
 
+
 class Problem(object):
 
 

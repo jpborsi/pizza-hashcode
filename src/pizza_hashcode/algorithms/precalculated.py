@@ -5,6 +5,7 @@
 from pizza_hashcode.core.cut import Cut
 from pizza_hashcode.core.solution import Solution
 
+
 class PrecalculatedSolution(object):
 
     def __init__(self, filename):

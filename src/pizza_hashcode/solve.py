@@ -6,10 +6,10 @@ import sys
 import time
 
 import pizza_hashcode.algorithms as algorithms
-
 from pizza_hashcode.core.problem import Problem
-from pizza_hashcode.core.validate import validate
 from pizza_hashcode.core.score import score
+from pizza_hashcode.core.validate import validate
+
 
 def main():
     config = sys.argv[1]

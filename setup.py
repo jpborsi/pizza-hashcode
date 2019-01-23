@@ -2,6 +2,7 @@
 
 from setuptools import setup, find_packages
 
+
 setup(name='pizza_hashcode',
         version='0.0',
         description='Code for solving 2019 Google HashCode warm-up',

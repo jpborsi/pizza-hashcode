@@ -4,6 +4,7 @@
 
 from pizza_hashcode.core.solution import Solution
 
+
 class EmptySolution(object):
 
     def __init__(self):

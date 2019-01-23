@@ -2,10 +2,11 @@
 @author: john.borsi
 '''
 
-from pizza_hashcode.core.validate import validate
+from pizza_hashcode.core.cut import Cut
 from pizza_hashcode.core.problem import Problem
 from pizza_hashcode.core.solution import Solution
-from pizza_hashcode.core.cut import Cut
+from pizza_hashcode.core.validate import validate
+
 
 problem = Problem('input/a_example.in')
 
