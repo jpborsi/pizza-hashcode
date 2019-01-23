@@ -103,5 +103,9 @@ venv.bak/
 # mypy
 .mypy_cache/
 
-# virtualenv
-pizza/
+# eclipse
+.project
+.pydevproject
+
+# mac
+**/.DS_Store
