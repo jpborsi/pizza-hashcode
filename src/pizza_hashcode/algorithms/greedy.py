@@ -3,9 +3,10 @@
 '''
 from pizza_hashcode.core.solution import Solution
 from pizza_hashcode.core.validate import check_cut
+from pizza_hashcode.algorithms.solver import Solver
 
 
-class GreedySolver(object):
+class GreedySolver(Solver):
 
     def get_solution(self, problem):
         solution = Solution()

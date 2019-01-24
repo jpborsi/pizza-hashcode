@@ -9,6 +9,7 @@ import pizza_hashcode.algorithms as algorithms
 from pizza_hashcode.core.problem import Problem
 from pizza_hashcode.core.score import score
 from pizza_hashcode.core.validate import validate
+from pizza_hashcode.algorithms.solver import Solver
 
 
 def main():
@@ -18,13 +19,18 @@ def main():
         for line in f:
             print(line)
             problem_name, input_file, output_file, algorithm, args = line.strip('\n').split(',')
+            
             algorithm_class = getattr(algorithms, algorithm)
+            assert issubclass(algorithm_class, Solver)
+            
             init_args = tuple([x for x in args.strip('()').split(';') if len(x) > 0])
             solver = algorithm_class(*init_args)
+            
             problem = Problem(input_file)
             start = time.time()
             solution = solver.get_solution(problem)
             end = time.time()
+            
             solution.output(output_file)
             is_validated = validate(problem, solution)
             solution_score = score(problem, solution)

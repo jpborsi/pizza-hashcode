@@ -3,12 +3,10 @@
 '''
 
 from pizza_hashcode.core.solution import Solution
+from pizza_hashcode.algorithms.solver import Solver
 
 
-class EmptySolution(object):
-
-    def __init__(self):
-        pass
+class EmptySolution(Solver):
     
     def get_solution(self, problem):
         return Solution()

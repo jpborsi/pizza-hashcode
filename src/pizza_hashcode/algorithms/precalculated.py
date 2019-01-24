@@ -4,9 +4,10 @@
 
 from pizza_hashcode.core.cut import Cut
 from pizza_hashcode.core.solution import Solution
+from pizza_hashcode.algorithms.solver import Solver
 
 
-class PrecalculatedSolution(object):
+class PrecalculatedSolution(Solver):
 
     def __init__(self, filename):
         self.solution = Solution()
