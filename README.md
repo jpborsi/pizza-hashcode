@@ -17,8 +17,8 @@ Google HashCode 2019 Qualification Round Warm-up Problem - BelieveLand Team Repo
 
 ## How to add a new algorithm
 
-* Create new implementation in [algorithms package](src/pizza-hashcode/algorithms)
-* Add import to [init file](src/pizza-hashcode/algorithms/__init__.py)
+* Create new implementation in [algorithms package](src/pizza_hashcode/algorithms)
+* Add import to [init file](src/pizza_hashcode/algorithms/__init__.py)
 * Run by adding algorithm name to config file
 
 ## Current Submission
