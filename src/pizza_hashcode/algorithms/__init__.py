@@ -1,5 +1,5 @@
-from empty_solution import EmptySolution
-from greedy import GreedySolver
-from precalculated import PrecalculatedSolution
-
-
+from pizza_hashcode.algorithms.empty_solution import EmptySolution
+from pizza_hashcode.algorithms.greedy import GreedySolver
+from pizza_hashcode.algorithms.precalculated import PrecalculatedSolution
+from pizza_hashcode.algorithms.akub.greedy import GreedySolver2
+from pizza_hashcode.algorithms.akub.tree_search import TreeSearchSolver
